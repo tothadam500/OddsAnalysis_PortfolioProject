@@ -146,7 +146,12 @@ class GUI:
         add_country_label.grid(row=3, column=0, sticky=W, pady=10)
 
         #  Split Seasons
-        last_year = dt.datetime.today().year - 1
+        # End of Season
+        if dt.datetime.today().month > 6:
+            last_year = dt.datetime.today().year
+        else:
+            last_year = dt.datetime.today().year - 1
+
         add_season_start_list = list(range(2018, last_year))
         add_season_end_list = list(range(2019, last_year + 1))
 
