@@ -1,5 +1,5 @@
 # Odds Analysis
-_This is Tóth Ádám's portfolio project!_
+_This is Ádám Tóth's portfolio project!_
 <br>
 <br>
 <br>
